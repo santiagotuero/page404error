@@ -63,12 +63,22 @@ img {
   color: #4f4f4f;
 }
 
+.header-container {
+  height: 40px;
+}
+
 .main-container {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  height: 100vh;
+  height: calc(100vh - 64px);
+}
+
+.footer-container {
+  display: flex;
+  justify-content: center;
+  height: 24px;
 }
 
 .back-to-home {
@@ -150,3 +160,13 @@ img {
   -webkit-animation-direction: normal, alternate;
   animation-direction: normal, alternate;
 }
+
+span {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #bdbdbd;
+}
+
