@@ -60,6 +60,9 @@ body {
 .header-container {
   height: 40px;
   padding: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
 }
 
 .main-container {
@@ -207,5 +210,9 @@ body {
   .footer-text {
     text-align: center;
     font-size: 0.7rem;
+  }
+
+  .header-container {
+    justify-content: center;
   }
 }
