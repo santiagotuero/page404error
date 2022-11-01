@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="./images/devchallenges.png" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -23,16 +24,18 @@
   </head>
   <body>
     <header class="header-container">
-      <h1>404 NOT FOUND</h1>
+      <h1 class="header-title">404 NOT FOUND</h1>
     </header>
     <main class="main-container">
-      <div>
-        <img src="./images/Scarecrow.png" alt="scarecrow image" />
-      </div>
+      <img
+        class="scarecrow"
+        src="./images/Scarecrow.png"
+        alt="scarecrow image"
+      />
 
-      <div class="main-texts-container">
-        <h2>I have a bad news for you</h2>
-        <p>
+      <div class="info-container">
+        <h2 class="text-title">I have a bad news for you</h2>
+        <p class="text-content">
           The page you are looking for might be removed or is temporarily
           unavailable
         </p>
@@ -45,7 +48,16 @@
       </div>
     </main>
     <footer class="footer-container">
-      <span>created by santiagotuero - devChallenges.io</span>
+      <span class="footer-text"
+        >created by
+        <a
+          class="github-anchor"
+          target="_blank"
+          href="https://github.com/santiagotuero"
+          >santiagotuero</a
+        >
+        - devChallenges.io</span
+      >
     </footer>
   </body>
 </html>
