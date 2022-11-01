@@ -10,7 +10,7 @@
       Demo
     </a>
     <span> | </span>
-    <a href="https://github.com/santiagotuero/santiagotuero.github.io">
+    <a href="https://github.com/santiagotuero/page404error">
       Solution
     </a>
     <span> | </span>
